@@ -14,7 +14,7 @@ public class salary {
 		.map(s -> s.length())
 		.forEach(System.out::println);
 		employee.stream()
-		.filter(s -> s.length() <= 4) 
+		.filter(s -> s.length() <=4) 
 		.forEach(System.out::println);
 //		employee.stream()
 //		.filter(num -> num > 5000 & num < 10000)
